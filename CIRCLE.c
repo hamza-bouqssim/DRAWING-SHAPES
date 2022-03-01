@@ -1,4 +1,5 @@
 #include <mlx.h>
+#include <stdlib.h>
 
     typedef struct c_info
     {
