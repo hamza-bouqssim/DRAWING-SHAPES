@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Mandelbrot.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: hbouqssi <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/03/27 00:43:02 by hbouqssi          #+#    #+#             */
+/*   Updated: 2022/03/27 00:43:05 by hbouqssi         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 //YOU CAN START FRACTOL PROJECT STARTING FROM DRAWING THIS SHAPE
 //I JUST TRIED TO DRAW THE MANDELBROT SET SHAPE, SO I DIDNT MANAGE FILES,
 //I JUST WROTE THE WHOLE CODE THAT WILL DISPLAY THE RESULT I WANT
