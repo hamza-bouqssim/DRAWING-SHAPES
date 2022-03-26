@@ -1,13 +1,15 @@
 //YOU CAN START FRACTOL PROJECT STARTING FROM DRAWING THIS SHAPE
 //I JUST TRIED TO DRAW THE MANDELBROT SET SHAPE, SO I DIDNT MANAGE FILES,
 //I JUST WROTE THE WHOLE CODE THAT WILL DISPLAY THE RESULT I WANT
-
-
+//COMPILE: cc -g Mandelbrot.c -lmlx -framework OpenGL -framework AppKit -o MandelbrotSet
+//EXECUTE: ./MandelbrotSet
 #include <mlx.h>
 #include <stdlib.h>
+//----------------------
 #define WIN_WIDTH 600
 #define WIN_HEIGHT 600
 #define MAX_ITERATION 100
+//----------------------
 typedef struct s_image
 {
 	void	*img;
@@ -42,7 +44,7 @@ typedef struct c_info
 		t_image	img;
         
     } t_init;
-
+//----------------------
 double	ft_map(double in, double in_end, double out_start, double out_end)
 {
 	return ((in) * (out_end - out_start) / (in_end) + out_start);
